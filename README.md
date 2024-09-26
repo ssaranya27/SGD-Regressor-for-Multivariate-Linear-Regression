@@ -81,6 +81,16 @@ print("\nPredictions:\n",y_pred[:5]) #print first 5 predictions
 ```
 
 ## Output:
+X value:
+
+![image](https://github.com/user-attachments/assets/aba170bb-95c2-496f-aed5-232ef40cbb5a)
+
+ Y value:
+ 
+ ![image](https://github.com/user-attachments/assets/980ae798-067d-4d75-b1e1-c287257186b6)
+ 
+Mean squared value and predicted value:
+
 ![image](https://github.com/user-attachments/assets/9ddb4be8-2d60-4e9f-adc1-f16e680fd0f3)
 
 
