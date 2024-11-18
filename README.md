@@ -8,12 +8,15 @@ To write a program to predict the price of the house and number of occupants in 
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. Step-1.Start
-2. Step-2.Data Preparation
-3.  3.Hypothesis Definition
-4.  4.Cost Function
-5.  5.Parameter Update Rule 6.Iterative Training
-6.   7.Model Evaluation 8.End
+1. Data Preparation: Gather and preprocess the dataset, ensuring features (e.g., house size, location) and target variables (price, occupants) are cleaned, scaled, and split into training/testing sets.
+
+2. Model Initialization: Initialize two separate SGD Regressor models or a multi-output SGD Regressor to handle multiple targets.
+
+3. Model Training: Train the SGD Regressor(s) on the training dataset by iteratively updating weights to minimize prediction errors.
+
+4. Model Evaluation: Assess the model’s performance using MSE for both targets (price and occupants) on the test dataset.
+
+5. Prediction: Input new house feature data to predict both price and number of occupants using the trained model.
 
 
 ## Program:
